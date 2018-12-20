@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"> <!--  ensure only one item can be selected -->
+        <item
+            android:id="@+id/viewWorkout"
+            android:title="View Workouts" />
+        <item
+            android:id="@+id/newWorkout"
+            android:title="New Workout" />
+        <item
+            android:id="@+id/benchmarks"
+            android:title="FindNearestGyms" />
+        <item
+            android:id="@+id/setReminders"
+            android:title="Reminders" />
+    </group>
+
+    <!-- for second grouping, eg facebook sharing integration:
+    <item android:title="Share">
+        <menu>
+            <item
+                android:id="@+id/nav_fb_share"
+                android:title="Facebook" />
+        </menu>
+    </item> -->
+
+</menu>

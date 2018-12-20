@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "958236479946",
+    "firebase_url": "https://workoutapp-9efc2.firebaseio.com",
+    "project_id": "workoutapp-9efc2",
+    "storage_bucket": "workoutapp-9efc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958236479946:android:60d5f330acc9669b",
+        "android_client_info": {
+          "package_name": "uk.ac.lincoln.a16601608students.workoutapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958236479946-knp0cb8fmq7l1jfbr3ubl63dddidji2q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uk.ac.lincoln.a16601608students.workoutapp",
+            "certificate_hash": "4ca4591b3b2a96b62e3c3ab5727dbd70a1eef309"
+          }
+        },
+        {
+          "client_id": "958236479946-c55415sac3vd2k0r0hrnp1jnjj119t4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ09W3DZyeLP3Sff3KE_H7V-uFgzlpTSA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958236479946-c55415sac3vd2k0r0hrnp1jnjj119t4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
