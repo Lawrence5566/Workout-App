@@ -34,6 +34,7 @@ import java.util.ArrayList;
 
 public class FindNearestGymFragment extends Fragment implements ReturnJson {
     LocationManager locationManager;
+	String APIKEY = "add api key here";
 
     @Nullable
     @Override
@@ -214,7 +215,7 @@ public class FindNearestGymFragment extends Fragment implements ReturnJson {
 
         public Place(String title, String imgRef, String desc){
             Title = title;
-            ImgLink = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=" + imgRef + "&key=AIzaSyD1Z6QGOH6kJVi8j4KiJ_hmc_IOrO-vxyA";
+            ImgLink = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=" + imgRef + "&key=" + APIKEY;
             Desc = desc;
         }
 

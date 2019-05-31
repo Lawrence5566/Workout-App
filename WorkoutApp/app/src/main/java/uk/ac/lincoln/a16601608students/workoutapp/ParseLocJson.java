@@ -15,7 +15,7 @@ public class ParseLocJson extends AsyncTask<String, String, String>{
 
     JSONArray results;
 
-    String apikey = "AIzaSyD1Z6QGOH6kJVi8j4KiJ_hmc_IOrO-vxyA";
+    String apikey = "add api key here";
 
     //test coords: 53.232973799999996,-0.5458096000000001 (lat,long)
 
